@@ -1,0 +1,72 @@
+.Card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    max-width: 22%;
+    min-width: 150px;
+    margin: 10px 0px 10px 2%;
+    float: left;
+    transition: 0.5s;
+}
+.Card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+}
+.Container{
+    width: 90%;
+    margin: 0 auto;
+}
+.imgWidth{
+    width:100%;
+}
+.imgText{
+    position: absolute;
+    bottom: 0;
+    background-color: #3e3c3c;;
+    color: #fff;
+    width: 100%;
+    opacity: 0.9;
+}
+.smallText{
+    font-size: 12px;
+    padding-bottom:5px;
+}
+.imgContainer{
+    position: relative;
+}
+.padLeft{
+    padding-left: 15px;
+}
+.flotLeft{
+    float:left;
+}
+.textRight{
+    text-align: right;
+}
+.userDetail{
+    font-size: 13px;
+    color:#fff;
+    background-color: #2f2e2e;
+    padding:20px 15px 20px 15px;
+    min-height: 225px;
+}
+hr{
+    border: none;
+    border-bottom: 1px solid;
+    color: #d6d0d0;
+}
+
+@media (max-width: 911px) {
+    .Card{
+        min-width: 150px;
+    }
+
+    .userDetail{
+        min-height: 259px;
+    }
+
+}
+@media (max-width:740px) {
+    .Card{
+        min-width: 48%;
+    }
+
+
+}

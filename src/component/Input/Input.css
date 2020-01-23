@@ -1,0 +1,39 @@
+
+.Input {
+    width: 22%;
+    /* padding-left: 7%; */
+    box-sizing: border-box;
+    margin-top: 10px;
+    float: left;
+  }
+  
+  .Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .InputElement {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    margin: 20px 0;
+    padding: 6px 10px;
+  }
+  
+  .InputElement:focus {
+    outline: none;
+    background-color: #ccc;
+  }
+  @media (max-width:740px) {
+    .Input {
+        width: 90%;
+        padding-left:7%;
+      }
+
+
+}

@@ -1,0 +1,41 @@
+.Filter {
+    float: left;
+    width: 200px;
+}
+
+.Container {
+    width: 63%;
+    padding-left: 7%;
+    float: left;
+    margin-top: 10px;
+}
+
+.filterbutton {
+    float: left;
+    background-color: #3c3a3a;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 15px;
+}
+
+.filterbutton:hover {
+    cursor: pointer;
+}
+
+.option {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.Container p {
+    font-size: 15px;
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid #ccc;
+    width: 100px;
+}
+
+.Container p:hover {
+    cursor: pointer;
+}
